@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://vignette.wikia.nocookie.net/monsterhunter/images/a/a1/MHW-Ancient_Forest_Artwork_001.jpg/revision/latest?cb=20170613042445");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron {
+
+   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  left: 0;
+  right: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.row{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px 10px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
